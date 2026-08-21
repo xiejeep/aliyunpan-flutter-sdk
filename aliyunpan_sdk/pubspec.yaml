@@ -14,7 +14,10 @@ dependencies:
    crypto: ^3.0.6
    collection: ^1.19.1
    aliyunpan_api:
-     path: ../aliyunpan_api
+     git:
+       url: https://github.com/xiejeep/aliyunpan-flutter-sdk.git
+       ref: main
+       path: aliyunpan_api
 
 dev_dependencies:
   lints: ^5.1.1

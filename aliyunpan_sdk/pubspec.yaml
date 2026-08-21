@@ -1,0 +1,21 @@
+name: aliyunpan_sdk
+description: 阿里云盘开放平台 SDK.
+version: 1.0.13
+homepage: https://github.com/sososdk/aliyunpan-flutter-sdk
+repository: https://github.com/sososdk/aliyunpan-flutter-sdk/tree/master/aliyunpan_sdk
+
+environment:
+  sdk: ^3.3.4
+
+dependencies:
+   xml: ^6.5.0
+   dio: ^5.8.0+1
+   anio: ^2.0.10
+   crypto: ^3.0.6
+   collection: ^1.19.1
+   aliyunpan_api:
+     path: ../aliyunpan_api
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.25.15
